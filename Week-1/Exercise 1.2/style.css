@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 2em;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.main {
+  width: 100vw;
+}
+.right {
+  margin-left: 55px;
+  position: relative;
+}
+nav {
+  background-color: #dcdcdc;
+}
+ul {
+  list-style-type: none;
+  height: 100vh;
+  width: 5%;
+}
+ul > li {
+  padding: 15px;
+
+  margin-bottom: 15px;
+}
+footer {
+  position: sticky;
+  bottom: 0px;
+  height: 100px;
+}
+.footer-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-left img {
+  height: 95px;
+  padding: 8px;
+}
+.footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.playing {
+  padding: 15px;
+  display: flex;
+  background-color: #303030;
+  color: #fff;
+}
+table {
+  text-align: left;
+  width: 100%;
+  padding: 20px;
+}
+table tr:nth-child(odd) td {
+  background-color: #d3d3d3;
+}
+td {
+  padding: 10px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #3b5998;
+  color: #fff;
+}
+button {
+  padding: 5px;
+  color: #0000ff;
+  background: none;
+}
+.control-player {
+  position: absolute;
+  bottom: 8px;
+}
+.control-player i {
+  margin: 10px;
+}
